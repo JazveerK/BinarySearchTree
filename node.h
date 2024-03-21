@@ -1,3 +1,4 @@
+//Credit: Tejas
 #ifndef NODE_H
 #define NODE_H
 
@@ -7,7 +8,7 @@ public:
     Node* left;
     Node* right;
     Node(int val);
-    ~Node(); // Destructor for proper memory deallocation
+    ~Node(); 
 };
 
 #endif // NODE_H
